@@ -232,7 +232,7 @@ class ActionSelector:
         action = self.action_var.get()
 
         if not action:
-            self.status_label.config(text="⚠️ Debes seleccionar una transformación", fg="red")
+            self.status_label.config(text="Debes seleccionar una transformación", fg="red")
             return
 
         if action == "rotation":
